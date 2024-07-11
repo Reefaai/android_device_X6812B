@@ -12,11 +12,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-# Inherit from Infinix-X6812B device
+# Inherit from X6812B device
 $(call inherit-product, device/infinix/X6812B/device.mk)
 
 PRODUCT_DEVICE := X6812B
 PRODUCT_NAME := twrp_X6812B
 PRODUCT_BRAND := Infinix
-PRODUCT_MODEL := X6812B
+PRODUCT_MODEL := Infinix HOT 11s NFC
 PRODUCT_MANUFACTURER := infinix
